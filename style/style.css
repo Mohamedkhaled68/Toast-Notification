@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #FFABAB;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 20px 50px;
+    background-color: #D14D72;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover{
+    background-color: #bd4768;
+}
+
+#container{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#container .noti-div{
+    background-color: #bd4768;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
